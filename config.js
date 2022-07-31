@@ -1,11 +1,11 @@
 //=============『 Utama 』================== //
-global.owner = ['6283862006229'] 
+global.owner = ['6283185574174'] 
 global.mods = [] 
 global.prems = [''] 
 
 //=============『 Info Owner 』============== //
-global.nameowner = 'Skyxmoon'
-global.numberowner = '6283862006229'
+global.nameowner = 'KazukiXD'
+global.numberowner = '6283185574174'
 global.instagram = 'https://instagram.com/sahrulwara_____'
 global.github = 'https://github.com/sahrull11'
 global.dana = '085962734007'
@@ -37,7 +37,7 @@ global.benar = 'Benar ✅\n'
 global.salah = 'Salah ❌\n'
 global.stiker_wait = '*Stiker sedang dibuat*'
 global.packname = 'Sticker By'
-global.author = '© Skyofc'
+global.author = '© KazukiXD'
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
