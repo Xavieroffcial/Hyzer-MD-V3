@@ -289,9 +289,9 @@ let menuu =
 ┃ ⌬ 𝙈𝙤𝙙𝙚 : ${global.opts['self'] ? 'Self' : 'publik'}
 ┃ ⌬ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ┃ ⌬ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-┗━━━━━━━━━━━━━㉿
+┗━━━━━━━━━━━━━㉿'
 ⫹⫺ 𝘿𝙖𝙩𝙚 : ${week} ${date}
-⫹⫺ 𝙏𝙞𝙢𝙚 : ${wib}'
+⫹⫺ 𝙏𝙞𝙢𝙚 : ${wib}
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
