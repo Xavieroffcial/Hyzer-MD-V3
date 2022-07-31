@@ -275,21 +275,23 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = 
-`┏━━〔 *${namebot}* 〕━㉿
-┃ ⌬ ⏰Aktif selama ${uptime}
+'┏━━〔 𝐥𝐥ı 𝙄𝙉𝙁𝙊 𝙐𝙎𝙀𝙍 𝐥𝐥ı 〕━㉿ 
+輪 𝘼𝙋𝙄 : ${tag}
+輪 𝙇𝙄𝙈𝙄𝙏 : ${limit}
+輪 𝙍𝙊𝙇𝙀 : ${role}
+輪 𝙋𝙍𝙀𝙈𝙄𝙐𝙈 : ${global.prem ? 'Yes' : 'No'}
+┗━━━━━━━━━━━━━㉿
+┏━━〔 𝐥𝐥ı 𝙄𝙉𝙁𝙊 𝘽𝙊𝙏 𝐥𝐥ı 〕━㉿
+┃ ⌬ 𝙉𝙖𝙢𝙚 : ${namebot}
+┃ ⌬ 𝘼𝙘𝙩𝙞𝙫𝙚 : ${uptime}
+┃ ⌬ 𝙍𝙪𝙣𝙣𝙞𝙣𝙜𝙤𝙣 : 𝐇𝐞𝐫𝐨𝐤𝐮
 ┃ ⌬ ${Object.keys(global.db.data.users).length} Pengguna
-┃ ⌬ Mode : ${global.opts['self'] ? 'Self' : 'publik'}
+┃ ⌬ 𝙈𝙤𝙙𝙚 : ${global.opts['self'] ? 'Self' : 'publik'}
 ┃ ⌬ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
 ┃ ⌬ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
 ┗━━━━━━━━━━━━━㉿
-┏━━〔 *${name}* 〕━㉿ 
-輪 Api : ${tag}
-輪 Limit : ${limit}
-輪 Role : ${role}
-輪 Premium : ${global.prem ? 'Yes' : 'No'}
-輪 Date : ${week} ${date}
-輪 Time : ${wib}
-┗━━━━━━━━━━━━━㉿`
+⫹⫺ 𝘿𝙖𝙩𝙚 : ${week} ${date}
+⫹⫺ 𝙏𝙞𝙢𝙚 : ${wib}'
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
