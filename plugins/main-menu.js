@@ -275,21 +275,22 @@ const fdoc = {
 //━━━━━━━━[ BAGIAN MENU ]━━━━━━━━//
 if (teks == '404') {
 let menuu = 
-`╭──❉ 「 *${namebot}* 」❉──────
-║│➸⏰Aktif selama ${uptime}
-║│➸${Object.keys(global.db.data.users).length} Pengguna
-║│➸Mode : ${global.opts['self'] ? 'Self' : 'publik'}
-║│➸${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-║│➸${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-║╰─────────❉
-║╭──❉「 *${name}* 」❉────── 
-║│➸Api : ${tag}
-║│➸ Limit : ${limit}
-║│➸ Role : ${role}
-║│➸ Premium : ${global.prem ? 'Yes' : 'No'}
-║│➸ Date : ${week} ${date}
-║│➸ Time : ${wib}
-╰─────────❉`
+`┏━━〔 ı𝐥𝐥 𝐈𝐍𝐅𝐎 𝐔𝐒𝐄𝐑 𝐥𝐥ı 〕━㉿
+┃⌬ 𝐀𝐩𝐢 : ${tag}
+┃⌬ 𝐋𝐢𝐦𝐢𝐭 : ${limit}
+┃⌬ 𝐑𝐨𝐥𝐞 : ${role}
+┃⌬ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 :  ${global.prem ? 'Yes' : 'No'}
+┗━━━━━━━━━━━━━㉿
+┏━━〔 ı𝐥𝐥 𝐈𝐍𝐅𝐎 𝐁𝐎𝐓 𝐥𝐥ı 〕━㉿
+輪 𝐍𝐚𝐦𝐞 : ${namebot}
+輪 𝐀𝐜𝐭𝐢𝐯𝐞 : ${uptime}
+輪 ${Object.keys(global.db.data.users).length} Pengguna
+輪 𝐌𝐨𝐝𝐞 : ${global.opts['self'] ? 'Self' : 'publik'}
+輪 ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+輪 ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
+┗━━━━━━━━━━━━━㉿
+⫹⫺ 𝐃𝐚𝐭𝐞  : ${week} ${date}
+⫹⫺ 𝐓𝐢𝐦𝐞 : ${wib}
 const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fromObject({
         listMessage: {
             title: `${ucapan()} ${name}`,
